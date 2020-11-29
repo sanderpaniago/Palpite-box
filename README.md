@@ -33,7 +33,7 @@ npm dev
 yarn dev 
 ```
 
-### Configurando o google sheet:
+### ⚙️ Configurando o google sheet:
 
 - crie uma planilha no seu google Sheet
 - acesse e crie uma conta no [consoledo googel](console.cloud.google.com) caso não tenha.
@@ -44,6 +44,9 @@ yarn dev
 - apos isso no projeto crie um arquivo .env.local e preencha as variaveil de embiente conforme exemplificado no .env.example
 - Agora basta pegar o email de serviço gerado e compartilhar na planilha.
 - um exemplo de como a planilha tem que ser dentro de /planilha
+
+# 📏 Layout do figma
+para acessar o layout do projeto [click aqui](https://www.figma.com/file/ElMdOG9WlXRX7blf0ltM9S/palpite-box?node-id=0%3A1)
 
 # 👨🏻‍💻 Author:
 
