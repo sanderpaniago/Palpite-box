@@ -14,7 +14,7 @@ const Header = () => {
             <div className='shadow-md bg-gray-200'>
                 <nav className='max-w-xs mx-auto flex item-center justify-between p-3 '>
                     <Link href='/sobre' >
-                        <a className='font-bold text-lg hover:underline'>Sobre</a>
+                        <a className='font-bold text-lg hover:underline'>Sobre o dev</a>
                     </Link>
                     <Link href='/pesquisa' >
                         <a className='font-bold text-lg hover:underline'>Pesquisa</a>

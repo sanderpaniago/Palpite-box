@@ -10,6 +10,12 @@ module.exports = {
       },
       minHeight: {
         '1/2': '50vh'
+      },
+      backgroundImage: theme => ({
+        'img-cv': 'url(/fotoCV.png)'
+      }),
+      height: {
+        xl: '508px'
       }
     },
   },
