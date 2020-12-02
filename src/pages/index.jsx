@@ -9,8 +9,6 @@ const Index = () => {
 
     const {data, error} = useSWR('/api/get-promo', featcher)
 
-    if (error) return <div>failed to load</div>
-    if (!data) return <div>loading</div>
 
     return (
         <div className='container mx-auto  md:mt-36 flex justify-center items-center flex-col min-h-1/2 md:min-h-full'>
@@ -21,7 +19,7 @@ Por isso, estamos sempre abertos a ouvir a sua opinião.</p>
                 <a className= 'flex w-72 md:w-96 h-16 bg-navy-blue-500 rounded-md my-8 md:my-16 font-bold md:text-2xl shadow-md items-center justify-center hover:shadow'>Dar opinião ou sugestão</a>
             </Link>
             
-            {data.activePromotion && <p className='text-center font-bold mb-12'>{data.textPromotion}</p>}
+            {!error && data && data.activePromotion && <p className='text-center font-bold mb-12'>{data.textPromotion}</p>}
         </div>
     )
 }

@@ -83,8 +83,6 @@ const Pesquisa = () => {
         return alert("Falha ao enviar sua opnião. Tente novamente mais tarde!!");
     };
 
-    if (error) return <div>failed to load</div>;
-    if (!data) return <div>loading</div>;
 
 
     return (
@@ -154,9 +152,7 @@ const Pesquisa = () => {
                         </button>
                     )}
             </Form>
-            {data.activePromotion && (
-                <p className="text-center font-bold mb-12">{data.textPromotion}</p>
-            )}
+            {!error && data && data.activePromotion && <p className='text-center font-bold mb-12'>{data.textPromotion}</p>}
 
             {modalCupom.isActive && ( <div className='flex items-center justify-center bg-black bg-opacity-70 w-screen h-screen absolute top-0 left-0 '>
                 <div className='h-4/4 w-3/4 bg-white rounded flex flex-col items-center p-4 pt-10 justify-center max-w-md'>
