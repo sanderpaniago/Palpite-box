@@ -3,7 +3,6 @@ import sgMail from '@sendgrid/mail'
 
 
 export default async (req: NextApiRequest,res: NextApiResponse) => {
-    console.log(JSON.parse(req.body))
     
     const {name, email, assunto, mensagem} = JSON.parse(req.body)
 
