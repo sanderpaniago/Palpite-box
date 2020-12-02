@@ -46,7 +46,7 @@ const Sobre = () => {
                 <Link href='https://github.com/sanderpaniago'>
                     <a className=' order-1 md:order-none border-2 border-blue-900 rounded text-blue-900 font-bold flex-shrink-0 p-2 hover:bg-blue-900 hover:text-white transition delay-200'>Acessar GitHub</a>
                 </Link>
-                <p className='max-w-xs text-center md:text-right mb-6 md:mb-0 text-2xl text-blue-900 font-bold'>Caso queira ver alguns de meus projetos acesse meu estarei deixando um botao que te levara direto para meu github</p>
+                <p className='max-w-xs text-center md:text-right mb-6 md:mb-0 text-2xl text-blue-900 font-bold'>Caso queira ver alguns de meus projetos acesse meus repositórios, estarei deixando um botao que te levara direto para meu github</p>
             </div>
         </div>
     )
