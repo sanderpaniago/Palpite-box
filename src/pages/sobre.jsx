@@ -25,12 +25,12 @@ const Sobre = () => {
             </div>
             <div className='bg-blue-900 pb-24'>
                 <h3 className='text-yellow-300 font-bold text-2xl text-center py-10'>Principais Skills</h3>
-                <div className='max-w-3xl mx-auto flex justify-between'>
+                <div className='max-w-3xl mx-auto flex md:justify-between flex-wrap justify-center gap-6'>
                     {skills.map((item, key)=> {
                         return (
                             <div className='w-28 h-36 bg-white flex flex-col items-center justify-center rounded'>
                                 <img className='p-4' src={item.imgUrl} alt="ReactJS"/>
-                                <p className='text-blue-900 font-bold text-xl'>{item.title}</p>
+                                <p className='text-blue-900 font-bold text-base'>{item.title}</p>
                             </div>
                         )
                     })}
@@ -42,11 +42,11 @@ const Sobre = () => {
                     <p className='text-white font-light px-4 md:px-0'>Sou desenvolvedor a quase 1 ano e tenho uma paixão por me desenvolver cada dia mais, sou o tipo de cara que gosta da liberdade, pois assim permitindo me evoluir cada dia mais. Tenho como objetivo colocar projetos e ideia no ar, por que oque não é visto não é lembrado.</p>
                 </div>
             </div>
-            <div className='flex items-center mt-36 sm:max-w-xl md:max-w-2xl max-w-xl mx-auto justify-between mb-24'>
+            <div className='flex flex-col md:flex-row items-center mt-36 sm:max-w-xl md:max-w-2xl max-w-xl mx-auto justify-between mb-24'>
                 <Link href='https://github.com/sanderpaniago'>
-                    <a className='border-2 border-blue-900 rounded text-blue-900 font-bold flex-shrink-0 p-2 hover:bg-blue-900 hover:text-white transition delay-200'>Acessar GitHub</a>
+                    <a className=' order-1 md:order-none border-2 border-blue-900 rounded text-blue-900 font-bold flex-shrink-0 p-2 hover:bg-blue-900 hover:text-white transition delay-200'>Acessar GitHub</a>
                 </Link>
-                <p className='max-w-xs text-right text-2xl text-blue-900 font-bold'>Caso queira ver alguns de meus projetos acesse meu estarei deixando um botao que te levara direto para meu github</p>
+                <p className='max-w-xs text-center md:text-right mb-6 md:mb-0 text-2xl text-blue-900 font-bold'>Caso queira ver alguns de meus projetos acesse meu estarei deixando um botao que te levara direto para meu github</p>
             </div>
         </div>
     )

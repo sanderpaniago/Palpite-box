@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import TitlePage from '../components/TitlePage'
 import { Form } from '@unform/web'
+import {FaFacebookSquare, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa'
 import InputContato from '../components/InputContato'
 
 const Contato = ()=> {
@@ -21,28 +22,32 @@ const Contato = ()=> {
                 </Form>
             </div>
 
-            <div className='max-w-lg mx-auto px-4'>
+            <div className='max-w-xl mx-auto px-4'>
                 <h3 className='text-center text-2xl font-bold text-yellow-400 mb-6'>Minhas Redes Sociais</h3>
 
-                <div className='flex mb-10 gap-10 '>
-                    <Link href=''>
-                        <a className='w-24 h-24 shadow-2xl flex flex-col items-center rounded'>
-                            <p>Facebook</p>
+                <div className='flex mb-10 gap-10 flex-wrap justify-center'>
+                    <Link href='https://www.facebook.com/sander.pererapaniago'>
+                        <a className='w-24 h-24 shadow-xl flex flex-col items-center justify-between py-2 rounded hover:shadow-2xl'>
+                            <FaFacebookSquare size={35} color='#1E3B8A'/>
+                            <p className='font-bold text-blue-900'>Facebook</p>
                         </a>
                     </Link>
-                    <Link href=''>
-                        <a className='w-24 h-24 shadow-2xl flex flex-col items-center rounded'>
-                            <p>Instagram</p>
+                    <Link href='https://www.linkedin.com/in/sander-paniago/'>
+                        <a className='w-24 h-24 shadow-xl flex flex-col items-center justify-between py-2 rounded hover:shadow-2xl'>
+                            <FaInstagram size={35}/>
+                            <p className='font-bold text-blue-900'>Instagram</p>
                         </a>
                     </Link>
-                    <Link href=''>
-                        <a className='w-24 h-24 shadow-2xl flex flex-col items-center rounded'>
-                            <p>Linkedin</p>
+                    <Link href='https://www.instagram.com/sander_paniago/'>
+                        <a className='w-24 h-24 shadow-xl flex flex-col items-center justify-between py-2 rounded hover:shadow-2xl'>
+                            <FaLinkedin size={35} color='#1E3B8A'/>
+                            <p className='font-bold text-blue-900'>Linkedin</p>
                         </a>
                     </Link>
-                    <Link href=''>
-                        <a className='w-24 h-24 shadow-2xl flex flex-col items-center rounded'>
-                            <p>GitHub</p>
+                    <Link href='https://github.com/sanderpaniago'>
+                        <a className='w-24 h-24 shadow-xl flex flex-col items-center justify-between py-2 rounded hover:shadow-2xl'>
+                            <FaGithub size={35} />
+                            <p className='font-bold text-blue-900'>GitHub</p>
                         </a>
                     </Link>
                 </div>
