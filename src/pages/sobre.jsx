@@ -1,5 +1,6 @@
 import React from 'react'
 import TitlePage from '../components/TitlePage'
+import Link from 'next/link'
 
 const Sobre = () => {
 
@@ -43,7 +44,9 @@ const Sobre = () => {
                 </div>
             </div>
             <div className='flex items-center mt-36 sm:max-w-xl md:max-w-2xl max-w-xl mx-auto justify-between mb-24'>
-                <a href="" className='border-2 border-blue-900 rounded text-blue-900 font-bold flex-shrink-0 p-2 hover:bg-blue-900 hover:text-white transition delay-200'>Acessar GitHub</a>
+                <Link href='https://github.com/sanderpaniago'>
+                    <a className='border-2 border-blue-900 rounded text-blue-900 font-bold flex-shrink-0 p-2 hover:bg-blue-900 hover:text-white transition delay-200'>Acessar GitHub</a>
+                </Link>
                 <p className='max-w-xs text-right text-2xl text-blue-900 font-bold'>Caso queira ver alguns de meus projetos acesse meu estarei deixando um botao que te levara direto para meu github</p>
             </div>
         </div>
