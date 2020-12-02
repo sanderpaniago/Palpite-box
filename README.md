@@ -45,13 +45,17 @@ yarn dev
 - Agora basta pegar o email de serviço gerado e compartilhar na planilha.
 - um exemplo de como a planilha tem que ser dentro de /planilha
 
-# 📏 Layout do figma
+## 📏 Layout do figma
 para acessar o layout do projeto [click aqui](https://www.figma.com/file/ElMdOG9WlXRX7blf0ltM9S/palpite-box?node-id=0%3A1)
 
-# 👨🏻‍💻 Author:
+## 👨🏻‍💻 Author:
 
 - **Sander Paniago** - [LinkedIn](https://www.linkedin.com/in/sanderpaniago) - [instagram](https://www.instagram.com/sander_paniago/)
 
-# licenças
+## 🚀 Build
+
+link para a [demo](https://palpitebox.sanderpaniago.vercel.app/)
+
+## 🗝 licenças
 
 Este projeto é licenciado sobre a licença MIT - [LICENSE.md](LICENSE.md) para mais informações.
