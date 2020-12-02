@@ -8,7 +8,6 @@ export default async (req: NextApiRequest,res: NextApiResponse) => {
 
     sgMail.setApiKey(process.env.SENDRID_API_KEY)
 
-    console.log(process.env.SENDRID_API_KEY)
     const mesageEmail = {
         to: 'sanderppaniago@gmail.com', // Change to your recipient
         from: 'sanderpaniagoev@gmail.com', // Change to your verified sender
