@@ -18,7 +18,6 @@ const Sobre = () => {
             <div className='sm:bg-img-cv bg-none bg-no-repeat bg-left-bottom h-xl'>
                 <div className='max-w-sm  mx-auto sm:mr-0 md:mx-auto xl:max-w-3xl  xl:mx-auto  pl-10'>
                     <h2 className='text-blue-900 font-bold text-4xl pt-32'><span className='text-yellow-400'>Olá, </span>Me chamo Sander</h2>
-
                     <p className='mt-16 text-blue-900 max-w-2xl text-2xl'>Atualmente trabalho como desenvolvedor front-end, sou um 
                     amante de todo ecossitema React, umas das libs que mais 
                     dedico meus estudos.</p>
@@ -36,11 +35,11 @@ const Sobre = () => {
                         )
                     })}
                 </div>
-                <div className='mt-36 max-w-3xl mx-auto flex items-center '>
-                    <div className='w-64 h-80 bg-yellow-400 flex-shrink-0 p-4  mr-11'>
+                <div className='mt-36 max-w-3xl mx-auto flex flex-col md:flex-row items-center '>
+                    <div className='w-64 h-80 bg-yellow-400 flex-shrink-0 p-4 mb-4  mr-11'>
                         <h3 className='text-4xl font-bold uppercase text-white leading-10'>agora vamos falar um pouco sobre mim.</h3>
                     </div>
-                    <p className='text-white font-light'>Sou desenvolvedor a quase 1 ano e tenho uma paixão por me desenvolver cada dia mais, sou o tipo de cara que gosta da liberdade, pois assim permitindo me evoluir cada dia mais. Tenho como objetivo colocar projetos e ideia no ar, por que oque não é visto não é lembrado.</p>
+                    <p className='text-white font-light px-4 md:px-0'>Sou desenvolvedor a quase 1 ano e tenho uma paixão por me desenvolver cada dia mais, sou o tipo de cara que gosta da liberdade, pois assim permitindo me evoluir cada dia mais. Tenho como objetivo colocar projetos e ideia no ar, por que oque não é visto não é lembrado.</p>
                 </div>
             </div>
             <div className='flex items-center mt-36 sm:max-w-xl md:max-w-2xl max-w-xl mx-auto justify-between mb-24'>

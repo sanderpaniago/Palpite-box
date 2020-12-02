@@ -18,8 +18,8 @@ const Footer = () => {
                     </Link>
                 </div>
                 <div className="flex justify-center flex-col sm:flex-row">
-                    <img className='object-contain mb-5 sm:mb-0 p-4' src="/logo_semana.png" alt="Semana Fullstack Master "/>
-                    <img className='object-contain p-4' src="/logo_devpleno.png" alt="Dev Pleno" />
+                    <img className='object-contain mb-5 sm:mb-0 p-4' src="/icon-logo.svg" alt="Sander paniago"/>
+                    
                 </div>
             </div>
         </footer>
