@@ -57,13 +57,13 @@ const Contato = ()=> {
                             <p className='font-bold text-blue-900'>Facebook</p>
                         </a>
                     </Link>
-                    <Link href='https://www.linkedin.com/in/sander-paniago/'>
+                    <Link href='https://www.instagram.com/sander_paniago/'>
                         <a className='w-24 h-24 shadow-xl flex flex-col items-center justify-between py-2 rounded hover:shadow-2xl'>
                             <FaInstagram size={35}/>
                             <p className='font-bold text-blue-900'>Instagram</p>
                         </a>
                     </Link>
-                    <Link href='https://www.instagram.com/sander_paniago/'>
+                    <Link href='https://www.linkedin.com/in/sander-paniago/'>
                         <a className='w-24 h-24 shadow-xl flex flex-col items-center justify-between py-2 rounded hover:shadow-2xl'>
                             <FaLinkedin size={35} color='#1E3B8A'/>
                             <p className='font-bold text-blue-900'>Linkedin</p>
