@@ -1,4 +1,5 @@
-# Palpite-box
+# Palpite-box [![GitHub stars](https://img.shields.io/github/stars/sanderpaniago/Palpite-box)](https://github.com/sanderpaniago/Palpite-box/stargazers) [![GitHub issues](https://img.shields.io/github/issues/sanderpaniago/Palpite-box)](https://github.com/sanderpaniago/Palpite-box/issues) [![GitHub stars](https://img.shields.io/github/stars/sanderpaniago/Palpite-box)](https://github.com/sanderpaniago/Palpite-box/stargazers)
+
 
 ![Screencast_29-11-2020_16_47_38](https://user-images.githubusercontent.com/52095222/100553774-255f7d00-3266-11eb-9b7f-927c836999c9.gif)
 
